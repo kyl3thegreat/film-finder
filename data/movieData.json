@@ -1,0 +1,37 @@
+{
+    "data": {
+        "title": "Movies",
+        "movies": [
+            {
+                "title": "Jaws",
+                "releaseDate": "June 19, 1975",
+                "genre": "Horror/Thriller",
+                "description": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast."
+            },
+            {
+                "title": "Iron Man",
+                "releaseDate": "May 2, 2008",
+                "genre": "Action/Science Fiction",
+                "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil"
+            },
+            {
+                "title": "It",
+                "releaseDate": "Sep 5, 2017",
+                "genre": "Drama/Horror",
+                "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise."
+            },
+            {
+                "title": "Interstellar",
+                "releaseDate": "Nov 5, 2014",
+                "genre": "Adventure/Science Fiction",
+                "description": "Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage."
+            },
+            {
+                "title": "Toy Story",
+                "releaseDate": "Nov 19, 1995",
+                "genre": "Animation/Comedy",
+                "description": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences."
+            }
+        ]
+    }
+}

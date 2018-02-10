@@ -1,0 +1,24 @@
+extends layout.pug
+block content
+  .results
+    ul
+      li
+        img(src='https://image.tmdb.org/t/p/w154'+ values.posterPath)
+      li
+        | You've searched for
+        span.bold  #{values.title}
+      li
+        | a
+        span.bold  #{values.genreIds}
+        |  film
+      li
+        | released on
+        span.bold  #{values.releaseDate}
+      li
+        span.bold About
+        br
+        |  #{values.description}
+    p
+      | I want to do another
+      span.bold
+        a(href='/')  Search

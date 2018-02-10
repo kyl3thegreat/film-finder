@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #80F3BE;
+  }
+  span.bold {
+    font-weight: 900;
+    color: #80F3BE;
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  span.bold a:visited {
+    color: #80F3BE;
+  }
+
+  /* Navigation Bar Styles */
+  .nav-bar {
+    text-align: center;
+  }
+  .nav-bar nav {
+
+  }
+  .nav-bar nav ul {
+    list-style: none;
+    font-weight: 800;
+    font-size: .9em;
+  }
+  .nav-bar nav ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+  }
+  .nav-bar nav ul li a {
+    color: #000;
+  }
+  .nav-bar nav ul li a:visited {
+    color: #000;
+  }
+
+  /* Search Box Styles */
+  .search {
+    width: 550px;
+    height: 340px;
+    margin: 200px auto;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.24);
+    text-align: center;
+  }
+  .search .header-text {
+    font-size: 43px;
+    font-weight: 900;
+    width: 380px;
+    margin: 50px auto;
+    display: inline-block;
+  }
+  .search #movieTitle {
+    width: 380px;
+    height: 34px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    border: none;
+    color: #646464;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .search input.button {
+    width: 60px;
+    height: 34px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    border: none;
+    color: #646464;
+    cursor: pointer;
+  }
+  .search input {
+    margin: 0 5px;
+  }
+
+  /* Results and About Styles  */
+  .results, .about {
+    width: 450px;
+    height: auto;
+    padding: 30px;
+    margin: 200px auto;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.24);
+    text-align: center;
+  }
+  .results ul, .about ul {
+    padding: 20px;
+    margin: 0;
+  }
+  .results ul {
+    padding-top: 0;
+  }
+  .results ul li, .about ul li {
+    font-size: .8em;
+    list-style: none;
+    margin: 10px 0;
+    line-height: 1.8em;
+  }
+  .results p, .about p {
+    margin: 0;
+  }
+
+  /* Error Message Styles */
+  .error {
+    font-size: .7em;
+    background-color: #FD7A7A;
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
+  .error .bold {
+    color: #000;
+  }
+
+  /* Footer Styles */
+  footer {
+    font-size: .7em;
+    color: #fff;
+  }

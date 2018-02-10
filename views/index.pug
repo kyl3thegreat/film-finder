@@ -1,0 +1,7 @@
+extends layout.pug
+block content
+  .search
+    h1.header-text Welcome. Search for any movie!
+    form(action='/search', method='post')
+      input#movieTitle(type='text', placeholder='Enter movie title (i.e iron man)', name='searchQuery')
+      input.button(type='submit', value='search')

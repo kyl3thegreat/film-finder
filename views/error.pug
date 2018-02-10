@@ -1,0 +1,12 @@
+extends layout.pug
+block content
+  .error
+    p.error-message
+      | You're search for
+      span.bold {{title}}
+      |  could not be found, Try Again!
+
+
+    h1 #{error.message}
+    h2 #{error.status}
+    p #{error.stack}
